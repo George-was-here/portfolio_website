@@ -36,6 +36,11 @@ body {
     flex-direction: row;
 }
 
+.footer {
+  background: #353935;
+  flex-direction: row;
+}
+
 .arrow-many-image {
    position: absolute;
    bottom: 250px;
@@ -154,4 +159,4 @@ a:hover { text-decoration: none; }
 
 
 a:active { text-decoration: none; }
-  
+
