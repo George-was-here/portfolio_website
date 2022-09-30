@@ -1,3 +1,146 @@
 body {
-    background: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
+
+.section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    position: relative;
+    scroll-snap-align: start;
+}
+
+.landing {
+    background: orange;
+    top: 0;
+}
+
+.bio {
+    justify-content: flex-start;
+    padding-top: 200px;
+    background: beige;
+}
+
+.projects {
+    background: lightskyblue;
+    flex-direction: row;
+}
+
+.arrow-many-image {
+   position: absolute;
+   bottom: 250px;
+    left: 400px;
+   width: 2%;
+}
+
+.contact {
+    background: lightpink;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.intro-container {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: dashed 3px darkred;
+    width: 50vw;
+}
+
+.name-image {
+    width: 100%;
+}
+
+.arrow-image {
+    width: 20%;
+    position: absolute;
+    bottom: -40px;
+    left: 50px;
+}
+
+.description-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.description-image {
+    width: 60%;
+}
+
+.clippy-image {
+    width: 10%;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+
+.bio > h3 {
+    width: 75%;
+    font-family: Papyrus;
+    text-align: center;
+}
+
+.smiley-image {
+    width: 20%;
+    margin-top: 100px;
+}
+
+.horizontal-container {
+    max-height: 60%;;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-description-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: dashed 3px darkred;
+    padding: 30px;
+    overflow: scroll;
+}
+
+.projects-image {
+    width: 80%;
+}
+
+.contact-image {
+    margin-top: 200px;
+    width: 40%;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    width: 50%;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icon {
+    width: 50%;
+}
+
